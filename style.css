@@ -144,3 +144,6 @@ dd.clear {
 ul{
   list-style: none;
 }
+hr{
+  border-width: 0 0 1px 0;
+}
