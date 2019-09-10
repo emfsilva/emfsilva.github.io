@@ -109,8 +109,14 @@ dd.clear {
   font-size: 37px;
 }
 
+.dtlista{
+  height: 600px;
+}
 .dtSkills{
-  height: 300px;
+  height: 320px;
+}
+.dtCursos{
+  height:800px;
 }
 
 .imgSocial img{
