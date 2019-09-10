@@ -4,12 +4,9 @@
 
 }
 
-ul {
-  list-style: none;
-}
 body {
   font: 16px Helvetica, Sans-Serif;
-  line-height: 24px;
+  line-height: 30px;
   background: url(images/noise.jpg);
 
 }
@@ -113,11 +110,31 @@ dd.clear {
 }
 
 .dtSkills{
-  height: 500px;
+  height: 300px;
 }
 
-.imgCel img{
+.imgSocial img{
   height: 20px;
-  width: 20px;
+  width: 22px;
 
+}
+.skills img {
+  height: 60px;
+  width: 60px;
+  
+}
+.dtcongif img{ 
+  height: 60px;
+  width: 60px;
+}
+
+.work img{
+  height: 70px;
+  width: 90px;
+}
+.imgSocial img{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
 }
