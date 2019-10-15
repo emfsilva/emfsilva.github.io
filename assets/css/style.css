@@ -27,6 +27,7 @@ header{
 }
 .logo{
   width: 100px;
+  
 }
 .logoimg{
   width: 80px;
@@ -35,6 +36,10 @@ header{
   flex: 1;
   display: flex;
   border-radius: 50%;  
+}
+.logoimg img{
+  width: 80px;
+  height: 80px;
 }
 .logonome{
   text-transform: uppercase;
