@@ -7,6 +7,7 @@ a{
   text-decoration: none;
   list-style: none;
 }
+
 .body{
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -121,4 +122,14 @@ header{
   justify-content: center;
   color: #c5c0c0;
   font-size:17px;
+}
+.slidearea ul {
+  list-style: none;
+  display: flex;
+  align-content: center;
+  text-align: center;
+}
+
+.slidearea ul li a {
+  outline: none;
 }
