@@ -1,230 +1,284 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Meu Curriculo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meu portfólio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+    <script src="https://kit.fontawesome.com/8dd542139c.js" crossorigin="anonymous"></script>
+        
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
 <body>
-  <div id="page-wrap">
-    <img src="images/1995515.svg" id="pic" />
+    <nav class="corSecundaria navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand textoBranco" href="#">Emerson Ferreira da Silva</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div id="contact-info" class="vcard">
-      <h1 class="fn">Emerson Ferreira da Silva</h1>
-      <p>
-        <div class="imgSocial">
-          <img src="images/icons/socialIcons/social-023_whatsapp.png">
-          <span class="tel">94350-2401</span><br />
-          </a>
-          <a href="mailto: emersonfdasilva2@gmail.com" target="_blank">
-            <img src="images/icons/socialIcons/social-067_gmail.png">
-            <span>emersonfdasilva2@gmail.com</span><br />
-          </a>
-          <a href="https://github.com/emfsilva" target="_blank">
-            <img src="images/icons/socialIcons/social-041-round_github.png">
-            <span>https://github.com/emfsilva</span><br />
-          </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
 
-          <a href="https://www.linkedin.com/in/emersonferreirasilva1992/" target="_blank">
-            <img src="images/icons/socialIcons/social-011_linkedin.png">
-            <span class="span">emersonferreirasilva1992</span><br />
-          </a>
-
-          <a href="https://www.google.com/maps/place/R.+Asp%C3%A1sia+-+Vila+Silviania,
-          +Carapicu%C3%ADba+-+SP/data=
-          !4m2!3m1!1s0x94cf0031f202b5fd:0x6ded66ba5cdef530?sa=X&ved=2ahUKEwjTud-
-          4nMXkAhUND7kGHQU1Ch8Q8gEwAHoECAoQAQ target=" _blank">
-            <img src="images/icons/socialIcons/local.jpg">
-            <span class="span">Rua Aspásia, Vila Silviania - Carapicuiba</span><br />
-          </a>
-          <img src="images/icons/socialIcons/niver.jpg">
-          <span class="span">27 anos</span><br />
-          </a>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link textoBranco" href="#projetos">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textoBranco" href="#sobre-mim">Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textoBranco" href="#cursos">Cursos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textoBranco" href="#contato">Contato</a>
+                </li>
+            </ul>
         </div>
-      </p>
+    </nav>
+    <section class="jumbotron text-center corPrimaria">
+        <div class="container">
+            <img class="foto-perfil" src="" alt="">
+            <h1 class="jumbotron-heading textoBranco">Emerson Ferreira da Silva</h1>
+            <p class="lead textoBranco">Programador Júnior</p>
+            <p>
+                <a href="#contato" class="btn btn-dark my-2">Contato</a>
+            </p>
+            <a href="https://www.linkedin.com/in/emersonferreirasilva1992/" target="_blank"> <i
+                    class="textoBranco fab fa-linkedin"></i></a>
+            <a href="https://github.com/emfsilva" target="_blank"><i class="textoBranco icones fab fa-github"></i></a>
+        </div>
+    </section>
+    <div class="album py-5 bg-light" id="projetos">
+        <div class="container">
+            <h2 class="jumbotron-heading text-center titulosVerdes">Projetos</h2>
+            <div class="row">
 
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                            src="https://i.ytimg.com/vi/jk8L4_Wx40U/maxresdefault.jpg" data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">Projeto utilizando clone do twitter, apenas front - end (Em Andamento)
+                            </p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Flex-Box</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://distracted-torvalds-45cf2d.netlify.com/" target="_blank"> <button type="button"
+                                            class="btn btn-sm btn-outline-success">Ver Projeto</button></a>
+                                    <a href="https://github.com/emfsilva/Twitter" target="_blank"><button type="button"
+                                            class="btn btn-sm btn-outline-primary">Código</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                            src="https://i.ytimg.com/vi/jk8L4_Wx40U/maxresdefault.jpg" data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">Este projeto consiste em um jogo chamado de jokempo, são 3 opçãos, pedra, papel e tesoura.
+                                Pedra ganha de tesoura, tesoura de papel e papel de pedra.
+                            </p>
+                            <ul>
+                                <li>Javascript</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://hardcore-mccarthy-c7e4fe.netlify.com/"> <button type="button"
+                                            class="btn btn-sm btn-outline-success">Ver Projeto</button></a>
+                                    <a href=""><button type="button"
+                                            class="btn btn-sm btn-outline-primary">Código</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                            src="https://i.ytimg.com/vi/jk8L4_Wx40U/maxresdefault.jpg" data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text"> Página clone apenas front-end
+                            </p>
+                            <ul>
+                                <li>HTML#</li>
+                                <li>CSS</li>
+                                <li>Flex-Box</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://peaceful-elion-f7e54a.netlify.com/o"> <button type="button"
+                                            class="btn btn-sm btn-outline-success">Ver Projeto</button></a>
+                                    <a href=""><button type="button"
+                                            class="btn btn-sm btn-outline-primary">Código</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                            src="https://i.ytimg.com/vi/jk8L4_Wx40U/maxresdefault.jpg" data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">Pagina Clone, portal de noticiais front-end.
+                            </p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>Javascript</li>
+                                <li>CSS</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://agitated-almeida-9256dc.netlify.com/" target="_blank"><button type="button"
+                                            class="btn btn-sm btn-outline-success">Ver Projeto</button></a>
+                                    <a href=""><button type="button"
+                                            class="btn btn-sm btn-outline-primary">Código</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                            src="https://i.ytimg.com/vi/jk8L4_Wx40U/maxresdefault.jpg" data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">Jogo snake em Javascript
+                            </p>
+                            <ul>
+                                <li>Javascript</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://wizardly-goldstine-52eb58.netlify.com/"> <button type="button"
+                                            class="btn btn-sm btn-outline-success">Ver Projeto</button></a>
+                                    <a href=""><button type="button"
+                                            class="btn btn-sm btn-outline-primary">Código</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                            src="https://i.ytimg.com/vi/jk8L4_Wx40U/maxresdefault.jpg" data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">Esse é um projeto que eu desenvolvi usando as tecnologias A, B, C e D.
+                            </p>
+                            <ul>
+                                <li>C#</li>
+                                <li>Javascript</li>
+                                <li>SQL</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="github.com/meuprojeto"> <button type="button"
+                                            class="btn btn-sm btn-outline-success">Ver Projeto</button></a>
+                                    <a href=""><button type="button"
+                                            class="btn btn-sm btn-outline-primary">Código</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div id="Objetivo">
-      <p>
-        Carreira em desenvolvimento na área de programação, como programador
-        junior.<br> Formado em analise e desenvolvimento de sistemas pela
-        Universidade Uninove no ano de 2019. Possuo conhecimentos acadêmicos
-        e básicos em algumas linguagens de programação, frameworks, bibliotecas e
-        banco de dados.
-      </p>
-      <hr>
-    </div>
 
-    <div class="clear"></div>
-    <dl>
-      <dd class="clear"></dd>
+    <!-- Sobre Mim -->
+    <section class="jumbotron text-center corPrimaria" id="sobre-mim">
+        <div class="container">
+            <h2 class="jumbotron-heading titulosBrancos">Sobre mim</h2>
+            <p class="lead textoBranco">Olá sou Emerson, comecei na área a um pouco mais de um ano, inicialmente como
+                estágiario em Cobol,
+                posteriormente migrei para estágiario em Java, onde participei do projeto VEIC, na parte de prototipagem
+                utilizando a linguagem Java
+                e framework Java Server Faces na arquiterura Bradesco AWB 3.0.
+                Atualmente estou alocado no banco, no projeto BRAIN, que consiste em uma API rest utilizando tecnologias
+                como maven, Junit e Jax-rs.
+            </p>
+        </div>
+    </section>
 
-      <dt class="dtcongif">
-        <img src="images/icons/estudos.png">
-      </dt>
-      <dd>
-        <h2>Centro Universitario Nove de Julho</h2>
-        <p>
-          <strong>Curso:</strong> Análise e Desenvolvimento de Sistemas<br />
-          <strong>Concluido - </strong>06/2019
-        </p>
-        <hr>
-      </dd>
+    <!--  Depoimentos  -->
+    <section class="jumbotron text-center" style="background-color:white !important" id="depoimentos">
+        <div class="container">
+            <h2 class="jumbotron-heading text-center titulosVerdes">
+                Cursos
+            </h2>
+            <blockquote class="blockquote text-center">
+                <p class="mb-0">É um profissional com um foco enorme em suas tarefas diárias, alem da
+                    simples dedicação do dia-a-dia na empresa.</p>
+                <footer class="blockquote-footer">CEO<cite title="Source Title"> Sony</cite>
+                </footer>
+            </blockquote>
+            <blockquote class="blockquote text-center">
+                <p class="mb-0">Um profissional super focado, dedicado, pontual com seus compromissos e ético.
+                    Interessado e super empolgado na área em que atua e nas demais, o que o torna um profissional
+                    pró-ativo e altamente eficiente.</p>
+                <footer class="blockquote-footer">Analista de Sistemas <cite title="Source Title">NuBank</cite>
+                </footer>
+            </blockquote>
+        </div>
+    </section>
 
-      <dd class="clear"></dd>
+    <!--  Contato -->
+    <section class='corPrimaria' id="contato">
+        <div>
+            <div class="container-fluid">
+                <h3 style="padding-top:60px" class="text-center titulosBrancos">Contato</h3>
+                <a href="mailto:emersonfdasilva2@gmail.com">
+                    <h4 style="padding-bottom:60px;margin-bottom: 0px;" class="text-center">👉Emerson Ferreira da
+                        Silva👈</h4>
+                </a>
+            </div>
+        </div>
+    </section>
 
-
-
-      <dt class="dtcongif dtSkills">
-        <img src="images/icons/skills.png">
-      </dt>
-      <dd>
-
-        <h2></h2>
-        <p>
-          <ul class="skills">
-            <ul>
-              <img src="images/icons/devIcons/java.svg">
-              <img src="images/icons/devIcons/jsf.png">
-              <img src="images/icons/devIcons/nodejs.svg">
-            </ul>
-
-            <ul>
-              <img src="images/icons/devIcons/html5.svg">
-              <img src="images/icons/devIcons/css3.svg">
-              <img src="images/icons/devIcons/js_badge.svg">
-              <img src="images/icons/devIcons/react.svg">
-            </ul>
-
-            <ul>
-              <img src="images/icons/devIcons/linux.svg">
-              <img src="images/icons/devIcons/mysql.svg">
-            </ul>
-
-            <ul>
-              <img src="images/icons/devIcons/git.svg">
-              <img src="images/icons/devIcons/gitLab.svg">
-              <img src="images/icons/devIcons/gitext.png">
-              <img src="images/icons/devIcons/github_full.svg">
-              <img src="images/icons/devIcons/markdown.png">
-            </ul>
-        </p>
-        <hr>
-      </dd>
-
-      <dd class="clear"></dd>
-
-      <dt class="dtcongif dtlista">
-        <img src="images/icons/work.png">
-      </dt>
-      <dd>
-        <h2>
-          BRQ
-          <span>Programador Junior - Atual</span>
-        </h2>
-        <ul>
-          <p>
-            Responsável por auxiliar no desenvolvimento de sistemas e procs,
-            com a utilização da linguagem java, com framework Java Server Faces,
-            com arquitetura awb3 (Bradesco), e banco de dados SQL.
-          </p>
-        </ul>
-
-        <h2>
-          BRQ
-          <span>Estagiario em Programação - 2018 a 2019</span>
-        </h2>
-        <ul>
-          <p>
-            Responsável no periodo de 5 meses por auxiliar no desenvolvimento de
-            sistemas em alta plataforma, com a utilização da linguagem Cobol.<br>
-            Responsavel no periodo de 2 meses pelo desenvolvimento de prototipos
-            funcionais utilizando a linguagem java e framework Java Server Faces,
-            arquitetura awb3 (Bradesco).
-          </p>
-        </ul>
-        <h2>
-          Sequoia Logistica
-          <span>Auxiliar de Almoxarifado - 2014 a 2018</span>
-        </h2>
-        <ul>
-          <p>
-            Responsável pelo recebimento e conferência de entrada e saída dos produtos e notas fiscais através do
-            sistema integrado (ERP WMS), além de atuar na organização de estoque físico e sistêmico, alimentando e
-            desenvolvendo planilhas para controles internos, responsável também pela separação de ordem de trabalho e
-            movimentação de estoque usando empilhadeira manual e elétrica.
-          </p>
-        </ul>
-        <hr>
-      </dd>
-
-      <dd class="clear"></dd>
-
-      <dt class="dtcongif dtCursos">
-        <img src="images/icons/cursos.png">
-      </dt>
-      <dd>
-        <p>
-          <ul>
-            <li>Digital Innovation One</li>
-            <ul>
-              <li>Introdução ao Git e Controle de Versões</li>
-              <li>Programação para Internet com JavaScript</li>
-              <li>Introdução ao GitHub e comandos essenciais para trabalhar em equipe</li>
-            </ul>
-            <li>Alura</li>
-            <ul>
-              <li>Java E JSF I: Sua Aplicação Web Com JSF2</li>
-              <li>Java Parte 7: Trabalhando Com Java.IO</li>
-              <li>Java Parte 6: Conhecendo o Java.UTIL</li>
-              <li>Java Parte 5: Pacotes e Java.LANG</li>
-              <li>Java Parte 4: Entendendo Exceções</li>
-              <li>Java Parte 2: Introdução à Orientação a Objetos</li>
-              <li>Java Parte 1: Primeiros Passos</li>
-              <li>UML Introdução: Modelagem de Soluções</li>
-              <li>Linux I: Conhecendo e Utilizando o Terminal</li>
-            </ul>
-            <li>Escola de Programadores</li>
-            <ul>
-              <li>Cobol com db2</li>
-            </ul>
-            <li>B7Web</li>
-            <ul>
-              <li>HTML e CSS</li>
-              <li>GIT: Versionamento de código</li>
-              <li>Javascript Básico</li>
-              <li>NodeJS</li>
-            </ul>
-
-            <li>Jdev Treinamentos</li>
-            <ul>
-              <li>Lógica de programação e algoritmos</li>
-              <li>Configuração do ambiente Java</li>
-
-            </ul>
-
-          </ul>
-        </p>
-        <hr>
-      </dd>
-
-      <dd class="clear"></dd>
-
-      <dt class="dtcongif">
-        <img src="images/icons/estudos2.png">
-      </dt>
-      <dd>Inglês - Técnico</dd>
-      <dd>Espanhol - Técnico</dd>
-      <dd>Português - Nátivo</dd>
-
-      <dd class="clear"></dd>
-    </dl>
-
-    <div class="clear"></div>
-  </div>
+    <!-- Footer -->
+    <footer class="text-center corSecundaria textoFooter">
+        <p class="textoBranco">Copyright 2019 </p>
+    </footer>
 </body>
 
 </html>
