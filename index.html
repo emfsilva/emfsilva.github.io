@@ -18,7 +18,6 @@
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
   <script src="https://kit.fontawesome.com/8dd542139c.js" crossorigin="anonymous"></script>
-
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
@@ -44,6 +43,10 @@
         <li class="nav-item">
           <a class="nav-link textoBranco" href="#projetos">Projetos</a>
         </li>
+
+        <li class="nav-item">
+          <a class="nav-link textoBranco" href="#skils">Skils</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link textoBranco" href="#cursos">Cursos</a>
         </li>
@@ -58,33 +61,33 @@
       <img class="foto-perfil" src="" alt="">
       <h1 class="jumbotron-heading textoBranco">Emerson Ferreira da Silva</h1>
       <p class="lead textoBranco">Programador Júnior</p>
-      <p>
-        <a href="#curriculo" class="btn btn-dark my-2">Baixar Curriculo</a>
+     <!-- <p>
+        <a href="#curriculo" class="btn btn-outline-light">Baixar Curriculo</a>
       </p>
+      -->
       <a href="https://www.linkedin.com/in/emersonferreirasilva1992/" target="_blank"> <i
           class="textoBranco fab fa-linkedin"></i></a>
       <a href="https://github.com/emfsilva" target="_blank"><i class="textoBranco icones fab fa-github"></i></a>
     </div>
   </section>
 
-   <!-- Sobre Mim -->
+  <!-- Sobre Mim -->
 
-   <section class="jumbotron text-center bg-light" id="sobre-mim">
+  <section class="jumbotron text-center bg-light" id="sobre-mim">
     <div class="container">
-      <h2 class="jumbotron-heading titulosPretos">Sobre mim</h2>
-      <p class="lead" align="justify">Eu sou Emerson, tenho 27 nos, sou formado em Análise e Desenvolvimento
-        de Sistemas pela UNINOVE, comecei a carreia como estagiario em cobol na BRQ, posteriormente migrei para
-        estagiario em java, onde participei de um projeto de prototipagem com linguagem java, utilizando framework 
-        JSF com arquitetura Bradesco AWB 3.0. 
-          Atualmente trabalho no grupo cruzeiro do sul como programador junior, utilizando linguagem java JSF com
-          primefaces, banco de dados oracle.
-      </p>
+      <h4 class="jumbotron-heading titulosPretos">Sobre mim</h4>
+      <p class="lead" align="justify">Eu tenho 27 anos,moro na zona leste de São Paulo, sou formado em Análise e
+        Desenvolvimento de Sistemas pela UNINOVE, iniciei a carreia como estagiario em cobol na BRQ, posteriormente migrei para
+        estagiario em java, onde participei de um projeto de prototipagem com linguagem java 6, utilizando framework
+        JSF com arquitetura Bradesco AWB 3.0. <br>
+        Atualmente trabalho no grupo cruzeiro do sul como programador junior, participei de alguns projetos que utilizaram tecnolgias
+        como java com framework spring, Jquery, rabbitMQ, swagger para documentação<br>
     </div>
   </section>
 
   <div class="album py-5 corPrimaria " id="projetos">
     <div class="container">
-      <h2 class="jumbotron-heading text-center titulosBrancos">Projetos</h2>
+      <h4 class="jumbotron-heading text-center titulosBrancos">Projetos</h4>
       <div class="row">
 
         <div class="col-md-4">
@@ -201,6 +204,8 @@
               </p>
               <ul>
                 <li>Javascript</li>
+                <li>CSS</li>
+                <li>HTML</li>
               </ul>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
@@ -230,8 +235,6 @@
               </ul>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a href="https://emfsilva.github.io/" target="_blank"> <button type="button"
-                      class="btn btn-sm btn-outline-success">Ver Projeto</button></a>
                   <a href="https://github.com/emfsilva/emfsilva.github.io" target="_blank"><button type="button"
                       class="btn btn-sm btn-outline-primary">Código</button></a>
                 </div>
@@ -241,15 +244,68 @@
         </div>
       </div>
     </div>
+    <div>
+      <div class="container-fluid">
+        <h4 style="padding-bottom:60px;margin-bottom: 0px;" class="text-center">
+          <a class="btn btn-outline-light" href="https://github.com/emfsilva" target="_blank">Outros Projetos</a>
+        </h4>
+        </a>
+      </div>
+    </div>
   </div>
+
+  <!--  SKILS  -->
+  <section class="jumbotron bg-light" style="background-color:white !important" id="skils">
+    <div class="container">
+      <h4 class="jumbotron-heading text-center titulosPretos">
+
+      </h4>
+
+      <ul>
+        <li class="liback">
+          <h2 class="back">Frontend</h2>
+
+          <p>HTML5</p>
+          <progress max="100" value="60" class="html5"></progress>
+
+          <p>CSS3</p>
+          <progress max="100" value="50" class="css3"></progress>
+
+          <p>JavaScript</p>
+          <progress max="100" value="30" class="JavaScript"></progress>
+
+          <p>React.Js</p>
+          <progress max="100" value="15" class="ReactJs"></progress>
+        </li>
+
+        <li class="liback">
+          <h2 class="back">Backend</h2>
+
+          <p style="width:75%" data-value="35">Java</p>
+          <progress max="100" value="35" class="Java"></progress>
+
+          <p>SQL</p>
+          <progress max="100" value="10" class="SQL"></progress>
+
+          <p>Node.js</p>
+          <progress max="100" value="30" class="node-js"></progress>
+
+          <p>TypeScript</p>
+          <progress max="100" value="10" class="TypeScript"></progres>
+
+        </li>
+      </ul>
+    </div>
+  </section>
 
   <!--  Cursos  -->
 
   <section class="jumbotron bg-light" style="background-color:white !important" id="cursos">
     <div class="container">
-      <h2 class="jumbotron-heading text-center titulosPretos">
+      <h4 class="jumbotron-heading text-center titulosPretos">
         Cursos
-      </h2>
+      </h4>
+
       <table class="table">
         <thead class="thead-dark">
           <tr>
@@ -259,6 +315,21 @@
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>Docker</td>
+            <td>.NET SP</td>
+            <td>06/2020</td>
+          </tr>
+          <tr>
+            <td>SpringBoot start</td>
+            <td>Udemy</td>
+            <td>06/2020</td>
+          </tr>
+          <tr>
+            <td>Java Básico</td>
+            <td>RL System</td>
+            <td>11/2019</td>
+          </tr>
           <tr>
             <td> Introdução ao GitHub e comandos essenciais para trabalhar em equipe.</td>
             <td>Digital Innovation One</td>
@@ -279,54 +350,10 @@
             <td>Alura Cursos Online</td>
             <td>05/2019</td>
           </tr>
-          <tr>
-            <td>Java Parte 7: Trabalhando Com JAVA.IO</td>
-            <td>Alura Cursos Online</td>
-            <td>05/2019</td>
-          </tr>
-          <tr>
-            <td>Java Parte 6: Conhecendo o JAVA.UTIL</td>
-            <td>Alura Cursos Online</td>
-            <td>05/2019</td>
-          </tr>
-          <tr>
-            <td>Java Parte 5: Pacotes e JAVA.LANG</td>
-            <td>Alura Cursos Online</td>
-            <td>05/2019</td>
-          </tr>
-          <tr>
-            <td>Java Parte 4: Entendendo exceções</td>
-            <td>Alura Cursos Online</td>
-            <td>05/2019</td>
-          </tr>
-          <tr>
-            <td>Java Parte 3: Entendendo Herança e Interface</td>
-            <td>Alura Cursos Online</td>
-            <td>05/2019</td>
-          </tr>
-          <tr>
-            <td>Java Parte 2: Introdução à Orientação a Objetos</td>
-            <td>Alura Cursos Online</td>
-            <td>04/2019</td>
-          </tr>
-          <tr>
-            <td>Java Parte 1: Primeiros Passos</td>
-            <td>Alura Cursos Online</td>
-            <td>04/2019</td>
-          </tr>
-          <tr>
-            <td>Linux I: Conhecendo e Utilizando o Terminal</td>
-            <td>Alura Cursos Online</td>
-            <td>04/2019</td>
-          </tr>
-          <tr>
-            <td>UML Introdução: Modelagem De Soluções</td>
-            <td>Alura Cursos Online</td>
-            <td>04/2019</td>
-          </tr>
+
         </tbody>
       </table>
-      
+
     </div>
   </section>
 
@@ -334,10 +361,13 @@
   <section class='corPrimaria' id="curriculo">
     <div>
       <div class="container-fluid">
-        <h3 style="padding-top:60px" class="text-center titulosBrancos">Curriculo</h3>
-          <h4 style="padding-bottom:60px;margin-bottom: 0px;" class="text-center">
-            <a class="btn btn-dark my-2" href="assets/Download/CurriculoEmersonFerreira.pdf" download="CurriculoEmersonFerreira.pdf">Download Curriculo</a>
-          </h4>
+        <h4 style="padding-top:60px" class="text-center titulosBrancos">Curriculo</h4>
+        <h4 style="padding-bottom:60px;margin-bottom: 0px;" class="text-center">
+          <a class="btn btn-danger" href="assets/Download/CVEmersonFerreira.pdf"
+            download="CurriculoEmersonFerreira.pdf">Curriculo PDF</a>
+              <a class="btn btn-primary" href="assets/Download/CvEmersonFerreiraSilva.docx"
+                download="CurriculoEmersonFerreiraSilva.docx">Curriculo DOCX</a>
+        </h4>
         </a>
       </div>
     </div>
@@ -345,7 +375,7 @@
 
   <!-- Footer -->
   <footer class="text-center corSecundaria textoFooter">
-    <p class="textoBranco">Copyright 2019 - Emerson Ferreira da Silva </p>
+    <p class="textoBranco">Copyright 2020 - Emerson Ferreira da Silva </p>
   </footer>
 </body>
 

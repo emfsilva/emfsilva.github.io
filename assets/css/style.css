@@ -56,3 +56,40 @@ p {
 html {
   scroll-behavior: smooth;
 }
+
+/* Basic resets */
+
+.liback {
+  width: 50%;
+  float: left;
+  list-style-type: none;
+  padding-right: 5.3333333%;
+}
+
+.liback:nth-child(even) {
+  margin-bottom: 5em;
+}
+
+.back {
+  margin: 0 0 1.5em;
+  border-bottom: 1px solid #ccc;
+  padding: 0 0 .25em;
+  
+}
+
+progress[value] {
+  /* Get rid of the default appearance */
+  appearance: none;
+  /* This unfortunately leaves a trail of border behind in Firefox and Opera. We can remove that by setting the border to none. */
+  border: none;
+  /* Add dimensions */
+  width: 100%;
+  height: 20px;
+  background-color: whiteSmoke;
+  border-radius: 3px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, .5) inset;
+  color: royalblue;
+  position: relative;
+  margin: 0 0 1.5em;
+  
+}
